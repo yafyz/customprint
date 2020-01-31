@@ -86,7 +86,7 @@ function module.init()
     devCon:WaitForChild("DevConsoleUI")
     devCon.DevConsoleUI:WaitForChild("TopBar")
     devCon.DevConsoleUI.TopBar:WaitForChild("WindowTitle")
-    devCon.DevConsoleUI.TopBar.WindowTitle.Text = "Developer Console (using fyz's enhanced print script v1.01)"
+    devCon.DevConsoleUI.TopBar.WindowTitle.Text = "Developer Console (using fyz's enhanced print script v1.1)"
 end
 
 function module.shutdown()
