@@ -20,7 +20,7 @@ you can of course combine them
 
 Script\: 
 ```lua 
-loadstring(game:HttpGet(('https://pastebin.com/raw/afBa2yya'),true))().EasyInit("eP", true)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/yafyz/customprint/master/main.lua'),true))().EasyInit("eP", true)
 ```
 
 First parameter of EasyInit is the name to export the module as, second if you want to enable rainbow (of course you do, why do i even give you an option)
