@@ -40,7 +40,7 @@ function module.init()
     wait()
     local devCon = game:GetService("CoreGui"):WaitForChild("DevConsoleMaster"):WaitForChild("DevConsoleWindow")
     rsCon = RunService.Heartbeat:Connect(function()
-        if not (devCon:FindFirstChild("DevConsoleUI") and devCon.DevConsoleUI:FindFirstChild("MainView")) then
+        if not (devCon:FindFirstChild("DevConsoleUI") and devCon.DevConsoleUI:FindFirstChild("MainView") and devCon.DevConsoleUI.MainView:FindFirstChild('ClientLog')) then
             return
         end
         for _,v in next, devCon.DevConsoleUI.MainView.ClientLog:GetChildren() do
@@ -112,3 +112,14 @@ function module.EasyInit(libname, enableRainbow)
 end
 
 return module
+
+--getgenv().cP = module
+
+--module.init()
+--module.initRainbow()
+--module.customPrint({Text = "this is so cool",
+--            	    Rainbow = true,
+--            	    KeepTime = false,
+--                    BeforeText = "~ ",
+--                    Font = "GothamBlack",
+--                    Icon = "http://www.roblox.com/asset/?id=316279305"})
