@@ -32,6 +32,12 @@ eP.print({
     --parameters
 })
 ```
+or
+```lua
+cprint({
+    --parameters
+})
+```
 
 Parameters:
 
@@ -64,6 +70,7 @@ eP.print({Text = "this is so cool",
 ```
 
 Small Q&A:
+
 Q: Dont you think that your method is quite bad ?
 
 A: Yes, shut up, i got reasons.
