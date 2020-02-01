@@ -112,14 +112,3 @@ function module.EasyInit(libname, enableRainbow)
 end
 
 return module
-
---getgenv().cP = module
-
---module.init()
---module.initRainbow()
---module.customPrint({Text = "this is so cool",
---            	    Rainbow = true,
---            	    KeepTime = false,
---                    BeforeText = "~ ",
---                    Font = "GothamBlack",
---                    Icon = "http://www.roblox.com/asset/?id=316279305"})
